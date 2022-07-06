@@ -6,7 +6,7 @@ import {
   HorizontalPlacement,
   VerticalPlacement,
   Placement,
-} from 'utils/portal'
+} from '../utils/portal'
 
 export enum ContentVisibility {
   HIDDEN = 'HIDDEN',

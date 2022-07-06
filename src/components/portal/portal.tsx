@@ -3,8 +3,8 @@ import { createPortal } from 'react-dom'
 import clsx from 'clsx'
 import { CSSTransition } from 'react-transition-group'
 import { useMemoOne } from 'use-memo-one'
-import { getTransformOriginClassName, Placement } from 'utils/portal'
-import { usePortalPosition } from 'hooks/use-portal-position'
+import { getTransformOriginClassName, Placement } from '../../utils/portal'
+import { usePortalPosition } from '../../hooks/use-portal-position'
 
 enum ContentVisibility {
   HIDDEN = 'HIDDEN',
