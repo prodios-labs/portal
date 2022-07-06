@@ -1,0 +1,63 @@
+{
+  "name": "@prodios-labs/portal",
+  "version": "0.1.0",
+  "description": "React component to render tooltip, popover, or similar component using Portal",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "microbundle --jsx --jsxFragment",
+    "dev": "microbundle watch --jsx --jsxFragment",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.2.1",
+    "@types/jest": "^28.1.4",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-transition-group": "^4.4.5",
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "autoprefixer": "^10.4.7",
+    "babel-jest": "^28.1.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.19.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "jest": "^28.1.2",
+    "jest-environment-jsdom": "^28.1.2",
+    "jsdom": "^20.0.0",
+    "microbundle": "^0.15.0",
+    "postcss": "^8.4.14",
+    "rimraf": "^3.0.2",
+    "tailwindcss": "^3.1.4"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "dependencies": {
+    "clsx": "^1.2.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-transition-group": "^4.4.2",
+    "use-memo-one": "^1.1.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
